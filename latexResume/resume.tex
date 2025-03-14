@@ -80,6 +80,13 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+\newcommand{\resumeTwoParamHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -103,7 +110,8 @@
 
 \begin{center}
     \textbf{\Huge \scshape Raidel Almeida} \\ \vspace{2pt}
-    \small 786-399-8029 $|$ \href{mailto:contact@raidel.dev}{\underline{contact@raidel.dev}} $|$ 
+    % \small 786-399-8029 $|$ 
+    \href{mailto:contact@raidel.dev}{\underline{contact@raidel.dev}} $|$ 
     \href{https://linkedin.com/in/raidel-almeida}{\underline{linkedin.com/in/raidel-almeida}} $|$
     \href{https://github.com/raidel-a}{\underline{github.com/raidel-a}} $|$
     \href{https://raidel.dev/}{\underline{raidel.dev}}
@@ -124,9 +132,8 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Swift, Typescript, Java, Python, C++, SQL, HTML/CSS } \\
+     \textbf{Languages}{: Swift, Typescript, Java, Python, C++, SQL, HTML/CSS, Go } \\
      \textbf{Technologies}{: React, Next.js, Tailwind, Node, WebGL, Zustand, Howler.js, Three.js, Git, neovim} \\
-
     
     }}
  \end{itemize}
@@ -134,12 +141,12 @@
 
 %-----------EXPERIENCE-----------
 
-\section{Leadership Experience}
+\section{Leadership}
   \resumeSubHeadingListStart
 
   \resumeSubheading
+  {INIT FIU Executive Board}{}
   {Explore Hardware Technical Lead}{Jan. 2024 -- Dec. 2024}
-  {INIT FIU Executive Board}{Miami, FL}
   \resumeItemListStart
     \resumeItem{Led 12+ technical workshops reaching 500+ students, including robotics, Arduino programming, and 3D modeling workshops with average of 30+ students}
     
@@ -149,17 +156,32 @@
     
     \resumeItem{Organized Florida's largest MLH hackathon, ShellHacks, attracting 1400+ participants and 30+ industry sponsors}
   \resumeItemListEnd
+
+\resumeTwoParamHeading
+{Director of Technology}{Jan. 2025 -- Dec. 2025}
+\resumeItemListStart
+  \resumeItem{Leading development of ShellHacks web application to handle 2,000+ applications and 1,300+ participants for Florida's largest hackathon, implementing robust architecture to ensure zero downtime during peak usage}
+  
+  \resumeItem{Architecting comprehensive system featuring specialized dashboards for hackers, administrators, and volunteers, along with integrated bulk email service and QR code scanning functionality for event check-ins}
+  
+  % \resumeItem{Completing migration from Next.js to Astro, Preact, and Go tech stack to enhance application performance, maintainability, and simplify future development cycles}
+  
+  \resumeItem{Collaborating with 35+ industry partners including Microsoft, Google, and Meta to integrate sponsorship requirements into platform while creating detailed documentation to facilitate developer onboarding}
+\resumeItemListEnd
+
+
+
       
-\resumeSubheading
-  {\href{https://gadget-galaxy-r.vercel.app/}{\faLink}
-  {INIT Build Intro Web Development Co-Lead}}{Sep. 2023 -- Nov. 2023}
-  {INIT FIU}{Miami, FL}
-  \resumeItemListStart
-    \resumeItem{Led a team of \textbf{10+ members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
-    \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000+ lines of code} across multiple features}
-    \resumeItem{Architected responsive product catalog implementing \textbf{dynamic filtering}, \textbf{search functionality}, and \textbf{shopping cart system}, achieving \textbf{sub-second load times} through optimization}
-    \resumeItem{Mentored team members in modern web development practices, including \textbf{React}, \textbf{Three.js}, and \textbf{Git}}
-  \resumeItemListEnd
+% \resumeSubheading
+%   {\href{https://gadget-galaxy-r.vercel.app/}{\faLink}
+%   {INIT Build Intro Web Development Co-Lead}}{Sep. 2023 -- Nov. 2023}
+%   {INIT FIU}{Miami, FL}
+%   \resumeItemListStart
+%     \resumeItem{Led a team of \textbf{10+ members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
+%     \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000+ lines of code} across multiple features}
+%     \resumeItem{Architected responsive product catalog implementing \textbf{dynamic filtering}, \textbf{search functionality}, and \textbf{shopping cart system}, achieving \textbf{sub-second load times} through optimization}
+%     \resumeItem{Mentored team members in modern web development practices, including \textbf{React}, \textbf{Three.js}, and \textbf{Git}}
+%   \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -178,14 +200,14 @@
   \resumeItem{Crafted responsive UI using \textbf{Tailwind CSS} with \textbf{custom animations}, achieving mobile-first design.}
 \resumeItemListEnd
 
-\resumeProjectHeading
-{{\href{https://raidel.dev}{\faLink}}
-\textbf{Portfolio Website} $|$ \emph{Next.js 14, TypeScript, MDX, Tailwind, Prisma}} {Jan. 2024 -- Feb. 2024}
-\resumeItemListStart
-  \resumeItem{Engineered a \textbf{dynamic portfolio and blog platform} using \textbf{Next.js 14} with server-side rendering and \textbf{TypeScript} for type safety}
-  \resumeItem{Built \textbf{content management system} using \textbf{MDX} and \textbf{Contentlayer}, featuring syntax highlighting, automated table of contents, and responsive image optimization}
-  \resumeItem{Added custom analytics system with \textbf{Prisma ORM} and \textbf{PostgreSQL} to track post engagement metrics.}
-\resumeItemListEnd
+% \resumeProjectHeading
+% {{\href{https://raidel.dev}{\faLink}}
+% \textbf{Portfolio Website} $|$ \emph{Next.js 14, TypeScript, MDX, Tailwind, Prisma}} {Jan. 2024 -- Feb. 2024}
+% \resumeItemListStart
+%   \resumeItem{Engineered a \textbf{dynamic portfolio and blog platform} using \textbf{Next.js 14} with server-side rendering and \textbf{TypeScript} for type safety}
+%   \resumeItem{Built \textbf{content management system} using \textbf{MDX} and \textbf{Contentlayer}, featuring syntax highlighting, automated table of contents, and responsive image optimization}
+%   \resumeItem{Added custom analytics system with \textbf{Prisma ORM} and \textbf{PostgreSQL} to track post engagement metrics.}
+% \resumeItemListEnd
 
 \resumeProjectHeading
 {{\href{https://devpost.com/software/mimir-lwui28}{\faLink}}
@@ -196,6 +218,18 @@
   \resumeItem{Architected responsive frontend using \textbf{Next.js} and \textbf{TypeScript}, featuring dynamic search, chat interface, and automated documentation suggestions}
   \resumeItem{Integrated \textbf{OpenAI's GPT-4} for intelligent ticket clustering and automated documentation generation}
 \resumeItemListEnd
+
+\resumeSubheading
+  {\href{https://gadget-galaxy-r.vercel.app/}{\faLink}
+  {Gadget Galaxy Co-Lead}}{Sep. 2023 -- Nov. 2023}
+  {INIT FIU}{Miami, FL}
+  \resumeItemListStart
+    \resumeItem{Led a team of \textbf{10+ members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
+    \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000+ lines of code} across multiple features}
+    \resumeItem{Architected responsive product catalog implementing \textbf{dynamic filtering}, \textbf{search functionality}, and \textbf{shopping cart system}, achieving \textbf{sub-second load times} through optimization}
+    \resumeItem{Mentored team members in modern web development practices, including \textbf{React}, \textbf{Three.js}, and \textbf{Git}}
+  \resumeItemListEnd
+
 
 \resumeSubHeadingListEnd
 
