@@ -76,14 +76,14 @@
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \textit{\large#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeTwoParamHeading}[2]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{#1} & #2 \\
+      \textit{\large#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -102,6 +102,8 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\plus}{{\raisebox{0.25ex}{+}}}
+
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,7 +134,7 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Swift, Typescript, Java, Python, C++, SQL, HTML/CSS, Go } \\
+     \textbf{Languages}{: Swift, Typescript, Java, Python, C\plus\plus, SQL, HTML/CSS, Go } \\
      \textbf{Technologies}{: React, Next.js, Tailwind, Node, WebGL, Zustand, Howler.js, Three.js, Git, neovim} \\
     
     }}
@@ -144,29 +146,30 @@
 \section{Leadership}
   \resumeSubHeadingListStart
 
-  \resumeSubheading
+\resumeSubheading
   {INIT FIU Executive Board}{}
   {Explore Hardware Technical Lead}{Jan. 2024 -- Dec. 2024}
   \resumeItemListStart
-    \resumeItem{Led 12+ technical workshops reaching 500+ students, including robotics, Arduino programming, and 3D modeling workshops with average of 30+ students}
+    \resumeItem{Led \textbf{12\plus technical workshops} reaching \textbf{500\plus students}, including robotics, Arduino programming, and 3D modeling workshops with average of \textbf{30\plus students}}
     
-    \resumeItem{Crafted detailed documentation and materials for workshops, enabling continued learning beyond sessions}
+    \resumeItem{Crafted \textbf{detailed documentation and materials} for workshops, enabling continued learning beyond sessions}
     
-    \resumeItem{Established safety protocols and standards for hardware lab operations, ensuring compliance with guidelines}
+    \resumeItem{Established \textbf{safety protocols and standards} for hardware lab operations, ensuring compliance with guidelines}
     
-    \resumeItem{Organized Florida's largest MLH hackathon, ShellHacks, attracting 1400+ participants and 30+ industry sponsors}
+    \resumeItem{Organized Florida's \textbf{largest MLH hackathon}, ShellHacks, attracting \textbf{1400\plus participants} and \textbf{30\plus industry sponsors}}
   \resumeItemListEnd
 
 \resumeTwoParamHeading
 {Director of Technology}{Jan. 2025 -- Dec. 2025}
 \resumeItemListStart
-  \resumeItem{Leading development of ShellHacks web application to handle 2,000+ applications and 1,300+ participants for Florida's largest hackathon, implementing robust architecture to ensure zero downtime during peak usage}
+  \resumeItem{Leading development of \textbf{ShellHacks web application} to handle \textbf{2,000\plus applications} and \textbf{1,300\plus participants} for Florida's largest hackathon, implementing \textbf{robust architecture} to ensure \textbf{zero downtime} during peak usage}
   
-  \resumeItem{Architecting comprehensive system featuring specialized dashboards for hackers, administrators, and volunteers, along with integrated bulk email service and QR code scanning functionality for event check-ins}
+  \resumeItem{Architecting comprehensive system featuring \textbf{specialized dashboards} for hackers, administrators, and volunteers, along with integrated \textbf{bulk email service} and \textbf{QR code scanning} functionality for event check-ins}
+  
   
   % \resumeItem{Completing migration from Next.js to Astro, Preact, and Go tech stack to enhance application performance, maintainability, and simplify future development cycles}
   
-  \resumeItem{Collaborating with 35+ industry partners including Microsoft, Google, and Meta to integrate sponsorship requirements into platform while creating detailed documentation to facilitate developer onboarding}
+  \resumeItem{Collaborating with \textbf{35\plus industry partners} including Microsoft, Google, and Meta to integrate sponsorship requirements into platform while creating \textbf{detailed documentation} to facilitate developer onboarding}
 \resumeItemListEnd
 
 
@@ -177,8 +180,8 @@
 %   {INIT Build Intro Web Development Co-Lead}}{Sep. 2023 -- Nov. 2023}
 %   {INIT FIU}{Miami, FL}
 %   \resumeItemListStart
-%     \resumeItem{Led a team of \textbf{10+ members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
-%     \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000+ lines of code} across multiple features}
+%     \resumeItem{Led a team of \textbf{10\plus members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
+%     \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000\plus lines of code} across multiple features}
 %     \resumeItem{Architected responsive product catalog implementing \textbf{dynamic filtering}, \textbf{search functionality}, and \textbf{shopping cart system}, achieving \textbf{sub-second load times} through optimization}
 %     \resumeItem{Mentored team members in modern web development practices, including \textbf{React}, \textbf{Three.js}, and \textbf{Git}}
 %   \resumeItemListEnd
@@ -213,7 +216,7 @@
 {{\href{https://devpost.com/software/mimir-lwui28}{\faLink}}
 \textbf{Mimir} $|$ \emph{Go, Next.js, React, TypeScript, Python, WeaviateDB}} {Knighthacks 2024}
 \resumeItemListStart
-  \resumeItem{Won ServiceNow Challenge (\textbf{1st place} among 250+ hackers) by developing an AI-powered documentation platform that streamlines technical knowledge management}
+  \resumeItem{Won ServiceNow Challenge (\textbf{1st place} among 250\plus hackers) by developing an AI-powered documentation platform that streamlines technical knowledge management}
   \resumeItem{Implemented a scalable backend in \textbf{Go} with \textbf{WeaviateDB} vector database, implementing \textbf{real-time clustering} for intelligent document categorization}
   \resumeItem{Architected responsive frontend using \textbf{Next.js} and \textbf{TypeScript}, featuring dynamic search, chat interface, and automated documentation suggestions}
   \resumeItem{Integrated \textbf{OpenAI's GPT-4} for intelligent ticket clustering and automated documentation generation}
@@ -224,8 +227,8 @@
   {Gadget Galaxy Co-Lead}}{Sep. 2023 -- Nov. 2023}
   {INIT FIU}{Miami, FL}
   \resumeItemListStart
-    \resumeItem{Led a team of \textbf{10+ members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
-    \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000+ lines of code} across multiple features}
+    \resumeItem{Led a team of \textbf{10\plus members} to develop \textbf{Gadget Galaxy}, a tech product referral platform featuring interactive \textbf{3D product showcases} using \textbf{React}, \textbf{Three.js}, and \textbf{WebGL}}
+    \resumeItem{Established \textbf{Agile development practices} and conducted bi-weekly code reviews, managing Git workflows and documentation for \textbf{4,000\plus lines of code} across multiple features}
     \resumeItem{Architected responsive product catalog implementing \textbf{dynamic filtering}, \textbf{search functionality}, and \textbf{shopping cart system}, achieving \textbf{sub-second load times} through optimization}
     \resumeItem{Mentored team members in modern web development practices, including \textbf{React}, \textbf{Three.js}, and \textbf{Git}}
   \resumeItemListEnd
