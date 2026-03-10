@@ -1,6 +1,7 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage{lmodern}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -171,17 +172,39 @@
     %     \resumeItem{Created comprehensive data visualizations using \textbf{Plotly Express}, \textbf{Matplotlib}, and \textbf{Seaborn} to communicate insights to stakeholders}
     %   \resumeItemListEnd
 
-        \resumeSubheading
+      %   \resumeSubheading
+      % {Miami Heat / 601 Analytics}{Miami, FL}
+      % {Data Analytics/Machine Learning Intern}{May -- July 2025}
+      % \resumeItemListStart
+      %   \resumeItem{Developed a \textbf{personalized shopping recommendation system} to improve Miami Heat's online retail conversion rate  using advanced machine learning techniques}
+        
+      %   \resumeItem{Implemented \textbf{two distinct ML models}: Apriori-Rule Based Mining (ARM) achieving \textbf{36.5\% F1 score} and a hybrid Content-Based/Collaborative Filtering model with \textbf{60.2\% accuracy}}
+        
+      %   \resumeItem{Processed and analyzed \textbf{5 datasets containing 600,000\plus rows} spanning \textbf{8 years} of customer data using \textbf{Python}, \textbf{Pandas}, and \textbf{Dask} for efficient data manipulation and feature engineering}
+        
+      %   \resumeItem{Engineered hybrid recommendation system combining \textbf{TF-IDF}, \textbf{cosine similarity}, and \textbf{PyTorch neural networks} with \textbf{RFM customer segmentation} and comprehensive data visualizations using \textbf{Plotly Express} and \textbf{Seaborn}}
+      % \resumeItemListEnd
+
+
+    \resumeSubheading
       {Miami Heat / 601 Analytics}{Miami, FL}
+      {Software Engineering Intern}{Sep 2025 -- Jan 2026}
+      \resumeItemListStart
+        \resumeItem{Developed an internal \textbf{data deletion request portal} to automate \textbf{CCPA compliance workflows} using \textbf{Angular}, \textbf{TypeScript}, \textbf{C\#}, and \textbf{.NET}, reducing request processing friction and improving turnaround time}
+        
+        \resumeItem{Integrated tool into existing analytics and management platform, collaborating with engineers to ensure compatibility with production systems and data pipelines}
+        
+        \resumeItem{Partnered cross-functionally with \textbf{PMs, legal counsel, and Director of Business} to define project scope, compliance requirements, and edge case handling}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
       {Data Analytics/Machine Learning Intern}{May -- July 2025}
       \resumeItemListStart
-        \resumeItem{Developed a \textbf{personalized shopping recommendation system} to improve Miami Heat's online retail conversion rate  using advanced machine learning techniques}
+        \resumeItem{Developed a \textbf{personalized shopping recommendation system} using \textbf{two ML models} --- Apriori-Rule Based Mining (ARM) at \textbf{36.5\% F1} and a hybrid Content-Based/Collaborative Filtering model at \textbf{60.2\% accuracy} --- to improve online retail conversion rate}
         
-        \resumeItem{Implemented \textbf{two distinct ML models}: Apriori-Rule Based Mining (ARM) achieving \textbf{36.5\% F1 score} and a hybrid Content-Based/Collaborative Filtering model with \textbf{60.2\% accuracy}}
+        \resumeItem{Processed \textbf{5 datasets totaling 600,000\plus rows} across \textbf{8 years} of customer data using \textbf{Python}, \textbf{Pandas}, and \textbf{Dask} for feature engineering and \textbf{RFM-based customer segmentation}}
         
-        \resumeItem{Processed and analyzed \textbf{5 datasets containing 600,000\plus rows} spanning \textbf{8 years} of customer data using \textbf{Python}, \textbf{Pandas}, and \textbf{Dask} for efficient data manipulation and feature engineering}
-        
-        \resumeItem{Engineered hybrid recommendation system combining \textbf{TF-IDF}, \textbf{cosine similarity}, and \textbf{PyTorch neural networks} with \textbf{RFM customer segmentation} and comprehensive data visualizations using \textbf{Plotly Express} and \textbf{Seaborn}}
+        \resumeItem{Engineered hybrid system combining \textbf{TF-IDF}, \textbf{cosine similarity}, and \textbf{PyTorch neural networks}; built stakeholder visualizations using \textbf{Plotly Express} and \textbf{Seaborn}}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -193,7 +216,7 @@
 
   \resumeSubheading
   {INIT FIU Executive Board}{}
-  {Director of Technology}{Jan -- Dec 2025}
+  {Director of Technology / Technical Project Manager}{Jan 2025 -- Dec 2026}
   \resumeItemListStart
   \resumeItem{Spearheaded development of \textbf{ShellHacks web application} to handle \textbf{2,000 \plus applications} and \textbf{1,300\plus participants} for Florida's largest hackathon, implementing \textbf{robust architecture} to ensure \textbf{zero downtime} during peak usage}
   
@@ -209,13 +232,9 @@
   {Explore Hardware Technical Lead}{Jan -- Dec 2024}
 \resumeItemListStart
 
- \resumeItem{Taught \textbf{12\plus technical workshops} reaching \textbf{500\plus students}, including robotics, Arduino programming, and 3D modeling workshops with average of \textbf{30\plus students}}
-    
-    \resumeItem{Crafted \textbf{detailed documentation and materials} for workshops, enabling continued learning beyond sessions}
-    
-    \resumeItem{Established \textbf{safety protocols and standards} for hardware lab operations, ensuring compliance with guidelines}
-    
-    \resumeItem{Organized Florida's \textbf{largest hackathon}, ShellHacks, attracting \textbf{1400\plus participants} and \textbf{30\plus industry sponsors}}
+  \resumeItem{Designed and delivered \textbf{12\plus\ hands-on hardware workshops} (robotics, Arduino, 3D modeling) for \textbf{500\plus\ students}, producing reusable documentation and materials for future leads}
+  \resumeItem{Co-organized \textbf{ShellHacks}, Florida's largest hackathon, coordinating logistics across \textbf{1,400\plus\ participants} and \textbf{30\plus\ industry sponsors}}
+
 \resumeItemListEnd
 
       
@@ -237,25 +256,39 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
+% \resumeProjectHeading
+% {{\href{init-build-iot-garden.github.io/iot_garden/}{\faLink}}
+% \textbf{\textbf{butterfl-IOT Garden}} $|$ \emph{C++, React, ESP32, Raspberry Pi, InfluxDB, Three.js}} {Aug -- Dec 2024}
+% \resumeItemListStart
+%   \resumeItem{\textbf{Led a team of 10\plus members} to develop a cost-effective IoT system monitoring environmental data soil moisture, temperature, and more) for FIU’s GCI Garden, providing the public and gardeners with \textbf{real-time analytics}}
+%   \resumeItem{Designed a \textbf{distributed sensor network} using \textbf{ESP32 nodes} paired with a \textbf{Raspberry Pi hub} running \textbf{Mosquitto MQTT}, \textbf{Node-RED workflows}, and \textbf{InfluxDB} for time-series data storage}
+%   \resumeItem{Engineered a \textbf{public visualization portal} with \textbf{React} and \textbf{Three.js}, featuring interactive charts (\textbf{ReCharts}), while maintaining \textbf{internal dashboards via Grafana} for analytics}
+%   \resumeItem{Implemented \textbf{Dockerized infrastructure} on Raspberry Pi for seamless deployment of \textbf{MQTT broker}, \textbf{database}, and \textbf{visualization services}, ensuring \textbf{scalable data processing} for 50\plus concurrent sensor streams}
+% \
 \resumeProjectHeading
 {{\href{init-build-iot-garden.github.io/iot_garden/}{\faLink}}
 \textbf{\textbf{butterfl-IOT Garden}} $|$ \emph{C++, React, ESP32, Raspberry Pi, InfluxDB, Three.js}} {Aug -- Dec 2024}
 \resumeItemListStart
-  \resumeItem{\textbf{Led a team of 10\plus members} to develop a cost-effective IoT system monitoring environmental data soil moisture, temperature, and more) for FIU’s GCI Garden, providing the public and gardeners with \textbf{real-time analytics}}
-  \resumeItem{Designed a \textbf{distributed sensor network} using \textbf{ESP32 nodes} paired with a \textbf{Raspberry Pi hub} running \textbf{Mosquitto MQTT}, \textbf{Node-RED workflows}, and \textbf{InfluxDB} for time-series data storage}
-  \resumeItem{Engineered a \textbf{public visualization portal} with \textbf{React} and \textbf{Three.js}, featuring interactive charts (\textbf{ReCharts}), while maintaining \textbf{internal dashboards via Grafana} for analytics}
-  \resumeItem{Implemented \textbf{Dockerized infrastructure} on Raspberry Pi for seamless deployment of \textbf{MQTT broker}, \textbf{database}, and \textbf{visualization services}, ensuring \textbf{scalable data processing} for 50\plus concurrent sensor streams}
+  \resumeItem{Led \textbf{10\plus\ member team} to build a cost-effective IoT system for FIU's GCI Garden, designing a distributed sensor network using \textbf{ESP32 nodes}, \textbf{Raspberry Pi}, \textbf{Mosquitto MQTT}, \textbf{Node-RED}, and \textbf{InfluxDB} for real-time environmental monitoring}
+  \resumeItem{Engineered a \textbf{public visualization portal} with \textbf{React} and \textbf{Three.js} alongside \textbf{Dockerized infrastructure} on Raspberry Pi, supporting \textbf{50\plus\ concurrent sensor streams} and internal analytics via \textbf{Grafana}}
 \resumeItemListEnd
 
 
+% \resumeProjectHeading
+% {{\href{https://devpost.com/software/mimir-lwui28}{\faLink}}
+% \textbf{Mimir} $|$ \emph{Go, Next.js, React, TypeScript, Python, WeaviateDB}} {Knighthacks 2024}
+% \resumeItemListStart
+%   \resumeItem{Won ServiceNow Challenge (\textbf{1st place} at UCF's Hackathon) by developing an AI-powered documentation platform that streamlines technical knowledge management}
+%   \resumeItem{Implemented a scalable backend in \textbf{Go} with \textbf{WeaviateDB} vector database, implementing \textbf{real-time clustering} for intelligent document categorization}
+%   \resumeItem{Architected responsive frontend using \textbf{Next.js} and \textbf{TypeScript}, featuring dynamic search, chat interface, and automated documentation suggestions}
+%   \resumeItem{Integrated \textbf{OpenAI's GPT-4} for intelligent ticket clustering and automated documentation generation}
+% \resumeItemListEnd
 \resumeProjectHeading
 {{\href{https://devpost.com/software/mimir-lwui28}{\faLink}}
 \textbf{Mimir} $|$ \emph{Go, Next.js, React, TypeScript, Python, WeaviateDB}} {Knighthacks 2024}
 \resumeItemListStart
-  \resumeItem{Won ServiceNow Challenge (\textbf{1st place} at UCF's Hackathon) by developing an AI-powered documentation platform that streamlines technical knowledge management}
-  \resumeItem{Implemented a scalable backend in \textbf{Go} with \textbf{WeaviateDB} vector database, implementing \textbf{real-time clustering} for intelligent document categorization}
-  \resumeItem{Architected responsive frontend using \textbf{Next.js} and \textbf{TypeScript}, featuring dynamic search, chat interface, and automated documentation suggestions}
-  \resumeItem{Integrated \textbf{OpenAI's GPT-4} for intelligent ticket clustering and automated documentation generation}
+  \resumeItem{Won \textbf{ServiceNow Challenge (1st place)} at UCF's KnightHacks by building an AI-powered documentation platform, architecting a \textbf{Go} backend with \textbf{WeaviateDB} vector database for real-time document clustering and categorization}
+  \resumeItem{Engineered responsive frontend in \textbf{Next.js} and \textbf{TypeScript} with dynamic search and chat interface, integrating \textbf{OpenAI GPT-4} for automated documentation generation and intelligent ticket clustering}
 \resumeItemListEnd
 
 
